@@ -1,0 +1,271 @@
+/* Base Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Container with side spacing */
+.container {
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* product section */
+.product-section {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* Full width on mobile */
+.product-image{
+    display: flex ;
+    flex-direction: row-reverse;
+   
+}
+
+.product-image,
+.product-details {
+  width: 100%;
+}
+
+.product-image img {
+  width: 292px;
+  height: auto;
+  display: block;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 8px;
+  margin-top: 0px;
+  margin-right: 2px;
+ flex-wrap: wrap;
+}
+
+.image-gallery img {
+  width: 67px;
+  height: auto;
+  display: block;
+}
+
+/* badge */
+.badge {
+  display: inline-block;
+  width: 92px;
+  background-color: #ED4444; 
+  color: #FFFFFF; 
+  padding: 5px 0 5px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  line-height: 24px;
+  letter-spacing: -2%;
+}
+
+/* rating */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 13px 0;
+}
+
+.rating-text {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #3F474B;
+  margin-left: 5px;
+}
+
+.rating-text span {
+  font-size: 16px;
+  color: #3F474B;
+}
+
+/* product heading */
+.product-heading {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 32px;            
+  line-height: 1.2;
+  letter-spacing: -5%;   
+  color: #141B4D;
+  margin-bottom: 16px;
+}
+
+/* testimonial */
+.testimonial-box {
+  background-color: #F2F2F6A8;
+  margin: 20px 0;
+  padding: 0 0 23px 15px;
+  border-radius: 5px;
+}
+
+.testimonial-avatar {
+  padding-top: 14px;
+  padding-bottom: 9px;
+}
+
+.testimonial-text {
+  color: #3F446C;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 19px;
+}
+
+/* feature list */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  width: 100%;
+}
+
+.feature-item p {
+  color: rgba(20, 27, 77, 0.8);
+  font-size: 16px;
+  line-height: 38px;
+  margin: 0;
+}
+
+/* price */
+.price {
+  margin: 50px 0 27px 0;
+  font-size: 28px;
+  line-height: 1.06; 
+  letter-spacing: -0.05em; 
+  color: #000000;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.discounted-price {
+  color: #CF1010;
+  font-weight: 500;
+  font-size: 38px;
+  margin-left: 8px;
+}
+
+/* action cart */
+.cart-actions {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-to-cart {
+  background-color: #1DB469;
+  width: 282px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quantity-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.qty-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF80;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  background: linear-gradient(
+  121.93deg,
+  #E0E0EA5B 5.45%,
+  #E0E0EA4D 33.39%,
+  #E0E0EA3E 65.96%,
+  #E0E0EA48 100%
+);
+
+}
+
+.qty-count {
+  color: #141B4D;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.05em;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* payment cart */
+.payment-cart img {
+  margin: 19px 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* heightlight products */
+.product-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.highlight-item img {
+  margin-right: 8px;
+  width: 20px;
+}
+
+.highlight-item p {
+  color: #141B4D;
+  font-size: 16px;
+  line-height: 38px;
+  margin: 0;
+  
+}
+
+.highlight-blue {
+  color: blue;
+}
+
+
+
+
+
+
+
